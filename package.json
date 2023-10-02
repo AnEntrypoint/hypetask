@@ -1,6 +1,6 @@
 {
   "name": "hypetask",
-  "version": "1.0.0",
+  "version": "0.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,6 @@
     "dotenv": "^16.0.1",
     "quickjs-emscripten": "^0.23.0",
     "hyper-ipc-secure": "^1.4.23",
-    "hypercore-crypto": "^3.4.0",
-    "hypelib":"^0.0.0"
+    "hypercore-crypto": "^3.4.0"
   }
 }
