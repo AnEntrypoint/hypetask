@@ -1,19 +1,21 @@
 {
   "name": "hypetask",
-  "version": "0.0.6",
+  "version": "0.0.16",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "npm version $(semver $npm_package_version -i minor) && npm publish --tag latest"
   },
+  "bin": "run.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
     "b4a": "^1.6.4",
     "discord.js": "^14.13.0",
     "dotenv": "^16.0.1",
-    "quickjs-emscripten": "^0.23.0",
+    "hypeeval": "^0.0.4",
     "hyper-ipc-secure": "^1.4.23",
-    "hypercore-crypto": "^3.4.0"
+    "hypercore-crypto": "^3.4.0",
+    "quickjs-emscripten": "^0.23.0"
   }
 }
