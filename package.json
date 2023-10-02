@@ -12,6 +12,7 @@
   "dependencies": {
     "b4a": "^1.6.4",
     "discord.js": "^14.13.0",
+    "hypeeval": "latest",
     "dotenv": "^16.0.1",
     "hypeeval": "^0.0.4",
     "hyper-ipc-secure": "^1.4.23",
