@@ -10,12 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "b4a": "^1.6.4",
-    "dotenv": "^16.0.1",
-    "hypecall": "^0.0.1",
+    "hypecall": "latest",
     "hypeeval": "latest",
-    "hyper-ipc-secure": "latest",
-    "hypercore-crypto": "^3.4.0",
     "quickjs-emscripten": "^0.23.0"
   }
 }
