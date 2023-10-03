@@ -1,2 +1,6 @@
-#! /usr/bin/env node
-require('hypecall')(require('./index.js'))
+/**
+ * @file This file is responsible for running the application.
+ * @module run
+ */
+
+require("hypecall")(require("./index.js"));

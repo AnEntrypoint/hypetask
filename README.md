@@ -1,2 +1,2 @@
 # hypetask
-task runner for hypeflow
+remote task runner for hypeflow

@@ -1,0 +1,18 @@
+#^index.js&^
+/**
+ * @file This is the main entry point of the application.
+ * @module index
+ */
+
+const ipc = require("hyper-ipc-secure");
+const runCall = require("hypeeval");
+
+module.exports = runCall;
+
+#^run.js&^
+/**
+ * @file This file is responsible for running the application.
+ * @module run
+ */
+
+require("hypecall")(require("./index.js"));
