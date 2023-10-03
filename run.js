@@ -1,2 +1,2 @@
 #! /usr/bin/env node
-require('hypecall')()
+require('hypecall')(require('./index.js'))
