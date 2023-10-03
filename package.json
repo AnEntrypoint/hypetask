@@ -11,8 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "b4a": "^1.6.4",
-    "hypeeval": "latest",
     "dotenv": "^16.0.1",
+    "hypecall": "^0.0.1",
+    "hypeeval": "latest",
     "hyper-ipc-secure": "latest",
     "hypercore-crypto": "^3.4.0",
     "quickjs-emscripten": "^0.23.0"
